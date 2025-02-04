@@ -2,6 +2,7 @@
 # https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/linux-deb.html
 
 # check out to /srv/salt
+# check out pillars to /srv/pillar
 # sudo salt-call --local state.apply
 
 base:
@@ -12,3 +13,4 @@ base:
     - floatswitch
     - unifi
     - cloudflared
+    - wireguard

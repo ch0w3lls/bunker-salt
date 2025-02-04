@@ -22,12 +22,6 @@ docker packages:
       - docker-ce-rootless-extras
       - docker-compose-plugin
 
-/unifi/data:
-  file.directory
-
-/unifi/log:
-  file.directory
-
 start unifi docker:
   cmd.run:
     - name: |

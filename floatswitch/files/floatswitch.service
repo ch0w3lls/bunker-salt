@@ -6,7 +6,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/home/chris/floatswitch.py
+ExecStart=/usr/local/bin/floatswitch.py
 Restart=on-failure
 StandardOutput=journal
 StandardError=journal

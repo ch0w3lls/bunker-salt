@@ -20,3 +20,6 @@ cloudflared:
     - enable: true
     - require:
       - cmd: update cloudflared sources
+
+# After running salt run
+# sudo cloudflared service install <token>
