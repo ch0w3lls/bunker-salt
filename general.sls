@@ -9,9 +9,9 @@ screen:
 
 /home/chris/.ssh/bunker:
   file.managed:
-    - contents_pillar: ssh_private
+    - contents_pillar: ssh:private
     - mode: '0600'
 
 /home/chris/.ssh/bunker.pub:
   file.managed:
-    - contents_pillar: ssh_public
+    - contents_pillar: ssh:public
